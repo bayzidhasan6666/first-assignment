@@ -1,0 +1,86 @@
+/* bismillah */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* banner styles */
+body{
+    background-color: #022f6b;
+
+}
+header{
+    background-image: url(images/banner/banner3.png);
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner{
+    text-align: justify;
+    padding: 215px 230px 365px 1145px;
+}
+.banner-title{
+    font-family: algerian;
+    font-size: 55px;
+    color: coral;
+    font-weight: lighter;
+    text-align: left;
+
+}
+.banner-description{
+    margin: 10px 25px 20px 0px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+
+}
+.banner-button{
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #022f6b;
+    color: coral;
+}
+/* islamic styles */
+.islamic{
+    display: flex;
+    gap: 70px;
+    margin-left: 600px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 600px;
+
+}
+
+
+.islamic .islamic-title{
+    font-family: algerian;
+    color: coral;
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+}
+.islamic .islamic-list{
+    list-style: none;
+    color: aqua;
+    margin-top: 20px;
+
+}
+ul li::before{
+    content:'✓';
+    margin-right: 10px;
+      
+}
+.islamic .islamic-description{
+    color: aliceblue;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+
+}
+ul li{
+    font-size: 14px;
+    padding-right: 10px;
+}
